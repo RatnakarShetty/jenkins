@@ -10,7 +10,7 @@ public class jenkins {
 	
 	@BeforeMethod(alwaysRun=true)
 	public void Login(){
-		Reporter.log("Login",true);
+		Reporter.log("Login dfgdfgdf",true);
 	}
 	
 	@AfterMethod(alwaysRun=true)
