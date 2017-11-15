@@ -21,6 +21,7 @@ public class jenkins {
 	@Test(dependsOnMethods={"action2"})
 	public void action1(){
 		Reporter.log("action1",true);
+		Reporter.log("action1",true);
 	}
 	
 	@Test()
