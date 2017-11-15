@@ -26,6 +26,7 @@ public class jenkins {
 	@Test()
 	public void action2(){
 		System.out.println("gdgdasghd");
+		
 		Reporter.log("action2",true);
 		Assert.fail();
 	}
